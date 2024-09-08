@@ -1,0 +1,546 @@
+﻿/* Google fontovi*/
+
+* {
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.meni-dugme{
+  display: none;
+ }
+
+h1{
+    font-size: 50px;
+    line-height:64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size:12px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.sekcija-p1{
+    padding: 40px 80px;
+}
+
+.sekcija-m1 {
+    padding: 40px 0;
+}
+
+button.normalno{
+    font-size: 14px;
+    font-weight:600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+body{
+    width: 100%;
+}
+
+/*Header*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #070f05;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navigacija{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#navigacija li{
+    list-style: none;
+    padding: 0 20px;
+    position:relative;
+}
+
+    #navigacija li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        transition: 0.5s ease;
+    }
+
+        #navigacija li a:hover,
+        #navigacija li a.aktivno {
+            color: #edede9;
+        }
+
+            #navigacija li a.aktivno::after,
+            #navigacija li a:hover::after{
+                content: "";
+                width: 30%;
+                height: 2px;
+                background: #edede9;
+                position: absolute;
+                bottom: -4px;
+                left: 20px;
+            }
+
+/*H/Velika slika*/
+#poster{
+    background-image: url("../slike/ress.jpg");
+    height: 79vh;
+    width:100%;
+    background-position: top 25% right 0%;
+    background-size: cover;
+    padding: 0 80px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+
+}
+    #poster h4 {
+        padding-bottom: 15px;
+        color: #ff0000;
+    }
+   
+#poster h1 {
+        color:#ff0000;
+    }
+
+    #poster h2 {
+        color: #ff0000;
+    }
+
+    #poster p {
+        color: #ff0000;
+    }
+
+    #poster button {
+        background-image:url("../slike/dugme/dugme.png");
+        background-color: transparent;
+        color: #ff0000;
+        border: 0;
+        padding: 14px 80px 14px 65px;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+/*Proizvodi*/
+#proizvod1{
+    text-align: center;
+}
+
+    #proizvod1 .proizvod-kontejner{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    #proizvod1 .proizvodii {
+        width: 23%;
+        min-width: 250px;
+        padding: 10px 12px;
+        border: 1px solid #cce7d0;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+        margin: 15px 0;
+        transition: 0.2s ease;
+    }
+
+        #proizvod1 .proizvodii:hover {
+            box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+        }
+
+        #proizvod1 .proizvodii img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+
+    #proizvod1 .proizvodii .Opis{
+        text-align: start;
+        padding: 10px 0;
+    }
+
+        #proizvod1 .proizvodii .Opis span{
+            color: #060606;
+            font-size: 12px;
+        }
+
+        #proizvod1 .proizvodii .Opis h5{
+            padding-top: 7px;
+            color: #1a1a1a;
+            font-size: 14px;
+        }
+
+        #proizvod1 .proizvodii .Opis i{
+            font-size: 12px;
+            color: rgb(243,181,25)
+        }
+
+        #proizvod1 .proizvodii .Opis h4{
+            padding-top: 7px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #ff0000;
+        }
+
+        #proizvod1 .proizvodii .korpa {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50px;
+            background-color: #cce7d0;
+            font-weight: 500;
+            color: #ff0000;
+            border: 15px solid #cce7d0;
+        }
+        /*poster2 /Kupon*/
+        /*banner/Kupon*/
+        #poster2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url("../slike/poster/poster.jpg");
+            width: 100%;
+            height: 40vh;
+            background-size: cover;
+            background-position: center;
+        }
+        #poster2 h2{
+            color: #fff;
+            font-size: 30px;
+            padding: 10px 0;
+        }
+            #poster2 h2 span {
+                color: #ef3636;
+            }
+        
+            #poster2 button:hover{
+                background-color: #088178;
+            }
+    /*Promocija*/
+#Promocija{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items:center;
+    background-image:url(../slike/back1.jpg);
+    background-size:3000px 150px;
+    background-repeat: no-repeat;
+    background-color: #041e42; 
+}
+#Promocija h4{
+    font-size: 22px;
+    font-weight:700;
+    color: #fff;
+}
+
+    #Promocija h4 span {
+        color: #ffbd27;
+    }
+
+    #Promocija .forma {
+       display: flex;
+       width: 40%;
+    }
+
+    #Promocija input {
+       height: 3.125rem;
+       padding: 0 1.25em;
+       font-size: 14px;
+       width: 100%;
+       border: 1px solid transparent;
+       border-radius: 4px;
+       outline: none;
+       border-top-right-radius: 0;
+       border-bottom-right-radius:0;
+    }
+
+    #Promocija button {
+        background-color: #088178;
+        color: #fff;
+        white-space: nowrap;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    /*footer*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    footer .kolona {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    footer .logo{
+        margin-bottom: 30px;
+    }
+
+    footer h4{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 13px;
+        margin: 0 0 8px 0;
+    }
+
+    footer a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #222;
+        margin-bottom: 10px;
+    }
+
+    footer .red img{
+        border: 1px solid #088178;
+        border-radius: 6px;
+    }
+
+    footer .copyright {
+       width: 100%;
+       text-align: center;
+    }
+    
+    
+    
+    /* klizac */
+    .proizvod-klizac{
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+    }
+    
+   
+    
+    .proizvod-kontejner-klizac {
+      padding: 0 10vw;
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+    }
+    
+    .proizvod-kontejner-klizac::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .proizvod-kartica {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 450px;
+      margin-right: 40px;
+    }
+    
+    .proizvod-slika {
+      position: relative;
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+    }
+    
+    .proizvod-okvir {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+   
+    
+    .kartica-dugme {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      width: 90%;
+      text-transform: capitalize;
+      border: none;
+      outline: none;
+      background: #fff;
+      border-radius: 5px;
+      transition: 0.5s;
+      cursor: pointer;
+      opacity: 0;
+    }
+    
+    .proizvod-kartica:hover .kartica-dugme {
+      opacity: 1;
+    }
+    
+    .kartica-dugme:hover {
+      background: #ff7d7d;
+      color: #fff;
+    }
+    
+    .proizvod-informacije {
+      width: 100%;
+      height: 100px;
+      padding-top: 10px;
+    }
+    
+    .proizvod-brend {
+      text-transform: uppercase;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    
+   
+    
+    
+   
+    
+    .proslo-dugme,
+    .sledece-dugme {
+      border: none;
+      width: 10vw;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+      cursor: pointer;
+      z-index: 8;
+    }
+    
+    .proslo-dugme {
+      left: 0;
+      transform: rotate(180deg);
+    }
+    
+    .sledece-dugme {
+      right: 0;
+    }
+    
+    .proslo-dugme img,
+    .sledece-dugme img {
+      opacity: 0.2;
+    }
+    
+    .proslo-dugme:hover img,
+    .sledece-dugme:hover img {
+      opacity: 1;
+    }
+    
+    
+    @media only screen and (max-width: 700px) {
+     
+      #header  {
+        width: 100%;
+        background-color: #009688;
+        
+       
+        
+      }
+      .logo {
+        width: 0%;
+      
+      }
+      #Promocija input {
+       padding-left: 200px;
+        margin-left: 20px;
+      
+        
+      }
+      #Promocija h4 {
+        
+         margin-bottom: 20px;
+         margin-left: 10px;
+       
+         
+       }
+       #poster {
+        
+        
+        width: 100%;
+      justify-content: center;
+        
+      }
+
+      
+      .meni-dugme{
+        background-color: #04AA6D;
+     display: block;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .mali-meni{
+        position: absolute;
+        padding-left: 0px;
+        display: inline-block;
+      }
+      
+      .meni-sadrzaj {
+        display: none;
+        position: absolute;
+        background-color: #3e8e41;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .meni-sadrzaj a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .meni-sadrzaj a:hover {background-color: #3e8e41;}
+
+.mali-meni:hover .meni-sadrzaj {display: block;}
+
+.mali-meni:hover .meni-dugme {background-color: #3e8e41;}
+#navigacija{
+display:  block ;
+align-items: normal; 
+justify-content: none;
+padding-right: 10px;
+}
+    }

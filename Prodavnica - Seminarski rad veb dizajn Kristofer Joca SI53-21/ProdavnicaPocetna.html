@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+    <title>R-Games</title>
+    <link rel="stylesheet" href="css/Pocetna-strana.css" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="slike/Logo.png" alt="" class="logo" /></a>
+
+        <div class="mali-meni">
+            <button class="meni-dugme">Meni</button>
+            <div class="meni-sadrzaj">
+            <ul id="navigacija">
+                <li><a href="ProdavnicaPocetna.html" class="aktivno">Pocetna</a></li>
+                <li><a href="Prodavnica.html">Prodavnica</a></li>
+                <li><a href="Onama.html">Onama</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section id="poster">
+        <h2>SUPER CENE</h2>
+        <h1>Na Sve Proizvode</h1>
+        <p>Ustedite vise sa kuponom čak do 20%!</p>
+        <a href="proizvod1.html"><button>Kupite Odmah</button></a>
+    </section>
+
+
+
+
+
+    <section id="proizvod1" class="sekcija-p1">
+        <h2>Popularni Proizvodi</h2>
+        <div class="proizvod-kontejner">
+            <div class="proizvodii" onclick="window.location.href = 'proizvod1.html';">
+                <img src="slike/proizvodi/proizvod1.jpg" alt="" />
+                <div class="Opis">
+                    <span>Capcom</span>
+                    <h5> Resident Evil 4 Remake</h5>
+                    <h4>9.499,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod2.jpg" alt="" />
+                <div class="Opis">
+                    <span>2k</span>
+                    <h5> WWE 2K23</h5>
+                    <h4>8.999,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod3.jpg" alt="" />
+                <div class="Opis">
+                    <span>Dambuster Studios</span>
+                    <h5> Dead Island 2 - Pulp Edition</h5>
+                    <h4>7.200,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod4.jpg" alt="" />
+                <div class="Opis">
+                    <span>Sega</span>
+                    <h5>Endless Dungeon - Day One Edition</h5>
+                    <h4>4.700,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod6.jpg" alt="" />
+                <div class="Opis">
+                    <span>Coffee Stain Studios</span>
+                    <h5>PCG Goat Simulator 3 - Goat In A Box Edition</h5>
+                    <h4>9.000,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod5.jpg" alt="" />
+                <div class="Opis">
+                    <span>Nacon</span>
+                    <h5>The Lord of the Rings - Gollum</h5>
+                    <h4>7.000,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod7.jpg" alt="" />
+                <div class="Opis">
+                    <span>Electronic Arts</span>
+                    <h5>Star Wars Jedi - Survivor</h5>
+                    <h4>8.400,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod8.jpg" alt="" />
+                <div class="Opis">
+                    <span>Electronic Arts</span>
+                    <h5>Dead Space Remake</h5>
+                    <h4>6.400,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+        </div>
+    </section>
+    <section id="poster2" class="sekcija-m1 ">
+        <h2>Čak do <span>20% sniženja</span> na sve proizvode </h2>
+        <button class="normalno" onclick="kuponPoruka()">Saznaj Više</button>
+    </section>
+    <section id="proizvod1" class="sekcija-p1">
+        <h2>Novi Proizvodi</h2>
+        <section class="proizvod-klizac"> 
+          <button class="proslo-dugme"><img src="slike/strelica.png" alt="strelica"></button>
+           <button class="sledece-dugme"><img src="slike/strelica.png" alt="strelica"></button>
+            <div class="proizvod-kontejner-klizac">
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod1.jpg" class="proizvod-okvir" alt="Resident Evil 4">
+                        <a href="proizvod1.html"><button class="kartica-dugme">Kupite odmah</button></a>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Resident Evil 4</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod2.jpg" class="proizvod-okvir" alt="WWE 2k23">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">WWE 2k23</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod3.jpg" class="proizvod-okvir" alt="Dead Island 2">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Dead Island 2</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod4.jpg" class="proizvod-okvir" alt="Endless Dungeon">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Endless Dungeon</h2>                       
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">                     
+                        <img src="slike/proizvodi/proizvod5.jpg" class="proizvod-okvir" alt="Lord of the rings gollum">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Lord of the rings gollum</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod6.jpg" class="proizvod-okvir" alt="Goat Simulator 3">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Goat Simulator 3</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod7.jpg" class="proizvod-okvir" alt="Jedi Survivor<">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Jedi Survivor</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod8.jpg" class="proizvod-okvir" alt="Dead Space Remake">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Dead Space Remake</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod9.jpg" class="proizvod-okvir" alt="Hogwards legacy">
+                       <a href="proizvod2.html"><button class="kartica-dugme">Kupite odmah</button></a>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Hogwards legacy</h2>
+                    </div>
+                </div>
+                <div class="proizvod-kartica">
+                    <div class="proizvod-slika">
+                        <img src="slike/proizvodi/proizvod10.jpg" class="proizvod-okvir" alt="Minecraft Legends">
+                        <button class="kartica-dugme">Kupite odmah</button>
+                    </div>
+                    <div class="proizvod-informacije">
+                        <h2 class="proizvod-brend">Minecraft Legends</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="Promocija" class="sekcija-p1 sekcija-m1">
+        <div class="Promocijatext">
+            <h4>Prijavite se za obavestenja o novim Proizvodima i <span>sniženjima</span></h4>
+        </div>
+        <div class="forma">
+            <input type="text" placeholder="Vaša E-mail adresa" id="emaill" />
+            <button type="submit" class="normalno" onclick="nijeprazno1()">Prijavite se</button>
+        </div>
+    </section>
+
+   
+
+    <footer class="sekcija-p1">
+        <div class="kolona">
+            <img class="logo" src="slike/Logo.png" />
+            <h4>Kontakt</h4>
+            <p>Adresa  Sterijina 3. Vršac. Srbija</p>
+            <p>Telefon: 872529944</p>
+            <p>Radno vreme: 8:00 - 21:00</p>
+            <div class="socialne-medije">
+                <h4>Zapratite nas na</h4>
+    
+            </div>
+        </div>
+        <div class="kolona">
+            <h4>Kontakt</h4>
+            <a href="Kontakt.html">Kontakt</a>
+        </div>
+        <div class="red">
+            <p>Sigurni načini plaćanja</p>
+            <img src="slike/Placanje/pay.png" />
+        </div>
+        <div class="copyright">
+            © 2024. R-Games
+        </div>
+    </footer>
+    <script src="js/pocetna.js"></script>
+</body>
+</html>

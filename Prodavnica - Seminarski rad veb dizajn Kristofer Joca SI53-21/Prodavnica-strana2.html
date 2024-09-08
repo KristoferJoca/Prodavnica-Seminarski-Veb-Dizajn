@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Prodavnica.css" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="slike/Logo.png" alt="" class="logo" /></a>
+
+        <div class="mali-meni">
+            <button class="meni-dugme">Meni</button>
+            <div class="meni-sadrzaj">
+            <ul id="navigacija">
+                <li><a href="ProdavnicaPocetna.html">Pocetna</a></li>
+                <li><a href="Prodavnica.html" class="aktivno">Prodavnica</a></li>
+                <li><a href="Onama.html">Onama</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="kontejner1">
+        <h2>Pretraga</h2>
+        <forma>
+            <input type="text" id="pretraga" placeholder="Pretraga" onkeyup="pretragafunkcija()" />
+        </forma>
+        <ul id="lista-pretazivaca">
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod" onclick="window.location.href = 'proizvod1.html';">
+                        <img src="slike/proizvodi/proizvod1.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Resident Evil 4 Remake</h2>
+                            <h3>9.499,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod2.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>WWE</h2>
+                            <h3>8.999,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod3.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2> Dead Island 2 - Pulp Edition</h2>
+                            <h3>7.200,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod4.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Endless Dungeon - Day One </h2>
+                            <h3>4.700,00 </h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod6.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>PCG Goat Simulator 3 - Goat In A Box Edition</h2>
+                            <h3>9.000,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod5.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>The Lord of the Rings - Gollum</h2>
+                            <h3>7.000,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod7.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Star Wars Jedi - Survivor</h2>
+                            <h3>8.400,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod8.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Dead Space Remake</h2>
+                            <h3>6.400,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod" onclick="window.location.href = 'proizvod2.html';">
+                        <img src="slike/proizvodi/proizvod9.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Hogwarts Legacy</h2>
+                            <h3>8.999,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod10.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Minecraft Legends</h2>
+                            <h3>6.499,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod11.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Enter x Exit the Gungeon</h2>
+                            <h3>4.499,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod12.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Crash Team Rumble</h2>
+                            <h3>4.700,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod13.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Moonscars</h2>
+                            <h3>3.799,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod14.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>The Knight Witch</h2>
+                            <h3>3.799,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod15.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Shadow warior 3</h2>
+                            <h3>4.700,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="lista-pretrazivanja" id="lista-pretrazivanja">
+                    <div class="proizvod">
+                        <img src="slike/proizvodi/proizvod16.jpg" alt="" />
+                        <div class="detalji-proizvoda">
+                            <h2>Bramble</h2>
+                            <h3>4.499,00 RSD</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="proizvod1" class="sekcija-p1">
+        <h2>Igre</h2>
+        <div class="proizvod-kontejner">
+            <div class="proizvodii" onclick="window.location.href = 'proizvod2.html';">
+                <img src="slike/proizvodi/proizvod9.jpg" alt="" />
+                <div class="Opis">
+                    <span>Warner Bros</span>
+                    <h5>Hogwarts Legacy</h5>
+                    <h4>8.999,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod10.jpg" alt="" />
+                <div class="Opis">
+                    <span>Mojang</span>
+                    <h5>Minecraft Legends</h5>
+                    <h4>6.499,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod11.jpg" alt="" />
+                <div class="Opis">
+                    <span>Dodge roll</span>
+                    <h5>Enter x Exit the Gungeon</h5>
+                    <h4>4.499,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod12.jpg" alt="" />
+                <div class="Opis">
+                    <span>Activision</span>
+                    <h5>Crash Team Rumble</h5>
+                    <h4>4.700,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod13.jpg" alt="" />
+                <div class="Opis">
+                    <span>Humble games</span>
+                    <h5>Moonscars</h5>
+                    <h4>3.799,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod14.jpg" alt="" />
+                <div class="Opis">
+                    <span>Team17</span>
+                    <h5>The Knight Witch</h5>
+                    <h4>3.799,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod15.jpg" alt="" />
+                <div class="Opis">
+                    <span>Flying wild hog</span>
+                    <h5>Shadow warior 3</h5>
+                    <h4>4.700,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod16.jpg" alt="" />
+                <div class="Opis">
+                    <span>Merge</span>
+                    <h5>Bramble</h5>
+                    <h4>4.499,00 RSD</h4>
+                </div>
+                <a href="#"><span class="korpa">kupite odmah</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="brojstrane" class="sekcija-p1">
+        <a href="Prodavnica.html"><-</a>
+        <a href="Prodavnica.html">1</a>
+        <a href="Prodavnica-strana2.html">2</a>
+    </section>
+
+    <section id="proizvod1" class="sekcija-p1">
+        <h2>Novi Proizvodi</h2>
+        <div class="proizvod-kontejner">
+            <div class="proizvodii" onclick="window.location.href = 'proizvod1.html';">
+                <img src="slike/proizvodi/proizvod1.jpg" alt="" onclick="window.location.href = 'proizvod1.html';" />
+                <div class="Opis">
+                    <span>Capcom</span>
+                    <h5>PS4 Resident Evil 4 Remake</h5>
+                    <h4>9.499,00 RSD</h4>
+                </div>
+                <a href="proizvod1.html"><span class="material-symbols-outlined korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod2.jpg" alt="" />
+                <div class="Opis">
+                    <span>2k</span>
+                    <h5>PS4 WWE 2K23</h5>
+                    <h4>8.999,00 RSD</h4>
+                </div>
+                <a href="#"><span class="material-symbols-outlined korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod3.jpg" alt="" />
+                <div class="Opis">
+                    <span>Dambuster Studios</span>
+                    <h5>PC Dead Island 2 - Pulp Edition</h5>
+                    <h4>7.200,00 RSD</h4>
+                </div>
+                <a href="#"><span class="material-symbols-outlined korpa">kupite odmah</span></a>
+            </div>
+            <div class="proizvodii">
+                <img src="slike/proizvodi/proizvod4.jpg" alt="" />
+                <div class="Opis">
+                    <span>Sega</span>
+                    <h5>PC Endless Dungeon - Day One Edition</h5>
+                    <h4>4.700,00 RSD</h4>
+                </div>
+                <a href="#"><span class="material-symbols-outlined korpa">kupite odmah</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Promocija" class="sekcija-p1 sekcija-m1">
+        <div class="Promocijatext">
+            <h4>Prijavite se za obavestenja o novim Proizvodima i <span>sniženjima</span></h4>
+        </div>
+        <div class="forma">
+            <input type="text" placeholder="Vaša E-mail adresa" id="emaill" />
+            <button type="submit" class="normalno" onclick="nijeprazno1()">Prijavite se</button>
+        </div>
+    </section>
+
+    <footer class="sekcija-p1">
+        <div class="kolona">
+            <img class="logo" src="slike/Logo.png" />
+            <h4>Kontakt</h4>
+            <p>Adresa  Sterijina 3. Vršac. Srbija</p>
+            <p>Telefon: 872529944</p>
+            <p>Radno vreme: 8:00 - 21:00</p>
+            <div class="socialne-medije">
+                <h4>Zapratite nas na </h4>
+            </div>
+        </div>
+        <div class="kolona">
+            <h4>Kontakt</h4>
+            <a href="Kontakt.html">Kontakt</a>
+        </div>
+        <div class="red">
+            <p>Sigurni načini plaćanja</p>
+            <img src="slike/Placanje/pay.png" />
+        </div>
+        <div class="copyright">
+            © 2024. R-Games
+        </div>
+    </footer>
+
+    <script src="js/prodavnicaStrane.js"></script>
+</body>
+</html>

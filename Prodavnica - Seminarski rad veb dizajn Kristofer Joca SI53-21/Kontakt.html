@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/Kontakt.css" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="slike/Logo.png" alt="" class="logo" /></a>
+
+        <div class="mali-meni">
+            <button class="meni-dugme">Meni</button>
+            <div class="meni-sadrzaj">
+            <ul id="navigacija">
+                <li><a href="ProdavnicaPocetna.html">Pocetna</a></li>
+                <li><a href="Prodavnica.html">Prodavnica</a></li>
+                <li><a href="Onama.html">Onama</a></li>
+                <li><a href="Kontakt.html" class="aktivno">Kontakt</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    
+    <div class="kontejner2">
+        <form onsubmit="nijeprazno()">
+            <h3>Obratite nam se </h3>
+            <input type="text" id="ime" placeholder="vase Ime" />
+            <input type="text" id="prezime" placeholder="vase prezime" />
+            <input type="text" id="Email" placeholder="vasa E-mail adresa" />
+            <textarea id="poruka" rows="4" placeholder="Kako mozemo da vam pomognemo"></textarea>
+            <button type="submit"><span>Pošalji</span></button>
+        </form>
+    </div>
+
+    <section id="Promocija" class="sekcija-p1 sekcija-m1">
+        <div class="Promocija-tekst">
+            <h4>Prijavite se za obavestenja o novim Proizvodima i <span>sniženjima</span></h4>
+        </div>
+        <div class="forma">
+            <input type="text" placeholder="Vaša E-mail adresa" id="emaill" />
+            <button type="submit" class="normalno" onclick="nijeprazno1()">Prijavite se</button>
+        </div>
+    </section>
+
+    <footer class="sekcija-p1">
+        <div class="kolona">
+            <img class="logo" src="slike/Logo.png" />
+            <h4>Kontakt</h4>
+            <p>Adresa  Sterijina 3. Vršac. Srbija</p>
+            <p>Telefon: 872529944</p>
+            <p>Radno vreme: 8:00 - 21:00</p>
+            <div class="follow">
+                <h4>Zapratite nas na</h4>
+               
+            </div>
+        </div>
+        <div class="kolona">
+            <h4>Kontakt</h4>
+            <a href="Kontakt.html">Kontakt</a>
+        </div>
+        <div class="red">
+            <p>Sigurni načini plaćanja</p>
+            <img src="slike/Placanje/pay.png" />
+        </div>
+        <div class="copyright">
+            © 2023. R-Games
+        </div>
+    </footer>
+    <script src="js/Kontakt.js"></script> 
+</body>
+</html>

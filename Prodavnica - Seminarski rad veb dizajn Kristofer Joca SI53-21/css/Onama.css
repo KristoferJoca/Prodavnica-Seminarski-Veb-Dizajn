@@ -1,0 +1,366 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sekcija-p1{
+    padding: 40px 80px;
+}
+.meni-dugme{
+   display: none;
+  }
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #070f05;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navigacija{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#navigacija li{
+    list-style: none;
+    padding: 0 20px;
+    position:relative;
+}
+
+    #navigacija li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        transition: 0.5s ease;
+    }
+
+        #navigacija li a:hover,
+        #navigacija li a.aktivno {
+            color: #edede9;
+        }
+
+            #navigacija li a.aktivno::after,
+            #navigacija li a:hover::after{
+                content: "";
+                width: 30%;
+                height: 2px;
+                background: #edede9;
+                position: absolute;
+                bottom: -4px;
+                left: 20px;
+            }
+
+main {
+    padding: 100px;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    font-size:  20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #4CAF50;
+}
+p {
+    line-height: 1.6;
+}
+
+ /*footer*/
+ footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    footer .kolona {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    footer .logo{
+        margin-bottom: 30px;
+    }
+
+    footer h4{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 13px;
+        margin: 0 0 8px 0;
+    }
+
+    footer a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #222;
+        margin-bottom: 10px;
+    }
+
+    footer .red img{
+        border: 1px solid #088178;
+        border-radius: 6px;
+    }
+
+    footer .copyright {
+       width: 100%;
+       text-align: center;
+    }
+    #Promocija{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        align-items:center;
+        background-image:url(../slike/back1.jpg);
+        background-size:3000px 150px;
+        background-repeat: no-repeat;
+        background-color: #041e42; 
+    }
+    #Promocija h4{
+        font-size: 22px;
+        font-weight:700;
+        color: #fff;
+    }
+    
+        #Promocija h4 span {
+            color: #ffbd27;
+        }
+    
+        #Promocija .forma {
+           display: flex;
+           width: 40%;
+        }
+    
+        #Promocija input {
+           height: 3.125rem;
+           padding: 0 1.25em;
+           font-size: 14px;
+           width: 100%;
+           border: 1px solid transparent;
+           border-radius: 4px;
+           outline: none;
+           border-top-right-radius: 0;
+           border-bottom-right-radius:0;
+        }
+    
+        #Promocija button {
+            background-color: #088178;
+            color: #fff;
+            white-space: nowrap;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        button.normalno{
+            font-size: 14px;
+            font-weight:600;
+            padding: 15px 30px;
+            color: #000;
+            background-color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: 0.2s;
+        }
+
+        @media only screen and (max-width: 700px) {
+     
+            #header  {
+              width: 100%;
+              background-color: #009688;
+              margin-left: -160px;
+              padding-left: 90px;
+              
+             
+              
+            }
+            main{
+                font-size:  14px;
+            }
+
+            
+            .logo {
+              width: 0%;
+            
+            }
+            #Promocija input {
+             padding-left: 200px;
+              margin-left: 20px;
+              margin-bottom:20px ;
+            
+              
+            }
+            #Promocija button {
+                 margin-bottom:20px ;
+               
+                 
+               }
+
+            #Promocija h4 {
+              
+               margin-bottom: 20px;
+               margin-left: 10px;
+             
+               
+             }
+             .meni-dugme{
+                background-color: #04AA6D;
+             display: block;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+              }
+              
+              .mali-meni{
+                position: absolute;
+                padding-left: 0px;
+                display: inline-block;
+              }
+              
+              .meni-sadrzaj {
+                display: none;
+                position: absolute;
+                background-color: #3e8e41;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              .meni-sadrzaj a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+              .meni-sadrzaj a:hover {background-color: #3e8e41;}
+    
+    .mali-meni:hover .meni-sadrzaj {display: block;}
+    
+    .mali-meni:hover .meni-dugme {background-color: #3e8e41;}
+    #navigacija{
+        display:  block ;
+        align-items: normal; 
+        justify-content: none;
+        padding-right: 10px;
+    }
+              
+            
+          }
+
+          /*klizac*/
+          * {box-sizing: border-box}
+.klizaci1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.ProsloKlizac, .sledeceKlizac {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 500px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "sledeceKlizac button" to the right */
+.sledeceKlizac {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.ProsloKlizac:hover, .sledeceKlizac:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The tacke/bullets/indicators */
+.klizacTacka {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.aktivnoKlizac, .klizacTacka:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slikaklizaca {
+    width: 1000px;
+    height: 500px;
+    margin-left: 350px;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 700px) {
+  .ProsloKlizac, .sledeceKlizac,.text {font-size: 11px}
+  .slikaklizaca {
+    width: 400px;
+    height: 300px;
+    margin-left: -50px;
+}
+.ProsloKlizac, .sledeceKlizac {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+}
+      

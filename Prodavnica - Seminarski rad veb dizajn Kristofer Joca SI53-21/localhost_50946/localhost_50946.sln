@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, formaat Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Prodavnica", "http://localhost:50946", "{22ACAA3E-E100-4103-8347-3D5CBA313167}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50946"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Documents\My Web Sites\Prodavnica\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50946\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50946"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Documents\My Web Sites\Prodavnica\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50946\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\Documents\My Web Sites\Prodavnica\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatformas) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatformas) = postSolution
+		{22ACAA3E-E100-4103-8347-3D5CBA313167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ACAA3E-E100-4103-8347-3D5CBA313167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A43C427-17B6-4132-A3C9-10CAE653D300}
+	EndGlobalSection
+EndGlobal
